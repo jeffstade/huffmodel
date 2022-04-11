@@ -1,13 +1,13 @@
 {
-	"name": "unicorn-fun",
+	"name": "huffmodel",
 	"version": "0.0.0",
 	"description": "My awesome module",
 	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun",
+	"repository": "jeffstern/huffmodel",
 	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
+		"name": "Jeff Stern",
+		"email": "jeffstern.ny@gmail.com",
+		"url": "https://github.com/jeffstern"
 	},
 	"type": "module",
 	"exports": "./index.js",
