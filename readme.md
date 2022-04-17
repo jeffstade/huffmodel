@@ -1,33 +1,33 @@
-**Remove everything from here and above**
+# huffmodel
 
----
-
-# unicorn-fun
-
-> My awesome module
+> Develop and visualize Huff models in the browser
 
 ## Install
 
 ```sh
-npm install unicorn-fun
+npm install huffmodel
 ```
 
 ## Usage
 
 ```js
-import unicornFun from 'unicorn-fun';
-
-unicornFun('unicorns');
-//=> 'unicorns & rainbows'
+let Huff = require('huffmodel');
+//=> output here
 ```
 
 ## API
 
-### unicornFun(input, options?)
+### unicornFun(origins, destinations, options?)
 
-#### input
+#### origins
 
-Type: `string`
+Type: `GeoJSON`
+
+Lorem ipsum.
+
+#### destinations
+
+Type: `GeoJSON`
 
 Lorem ipsum.
 
@@ -35,9 +35,9 @@ Lorem ipsum.
 
 Type: `object`
 
-##### postfix
+##### distanceThreshold
 
-Type: `string`\
-Default: `rainbows`
+Type: `integer`\
+Default: `10`
 
 Lorem ipsum.
