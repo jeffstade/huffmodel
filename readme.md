@@ -42,4 +42,4 @@ Type: `object`
 > Type: `integer`\
 > Default: `10`
 > 
-> Lorem ipsum.
+> Lorem ipsum..
