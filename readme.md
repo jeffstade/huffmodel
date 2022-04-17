@@ -2,6 +2,8 @@
 
 > Develop and visualize Huff models in the browser
 
+See an example application using this module: https://github.com/jeffstern/huff-example-viz
+
 ## Install
 
 ```sh
@@ -17,15 +19,15 @@ let Huff = require('huffmodel');
 
 ## API
 
-### unicornFun(origins, destinations, options?)
+### generateProbabilities(origins, destinations, options?)
 
-#### origins
+#### originsGeom
 
 Type: `GeoJSON`
 
 Lorem ipsum.
 
-#### destinations
+#### destinationsGeom
 
 Type: `GeoJSON`
 
@@ -35,9 +37,9 @@ Lorem ipsum.
 
 Type: `object`
 
-##### distanceThreshold
-
-Type: `integer`\
-Default: `10`
-
-Lorem ipsum.
+> ##### distanceThreshold
+> 
+> Type: `integer`\
+> Default: `10`
+> 
+> Lorem ipsum.
