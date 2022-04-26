@@ -1,6 +1,6 @@
 {
 	"name": "huffmodel",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Create and visualize huff models",
 	"license": "MIT",
 	"sourceType": "module",
