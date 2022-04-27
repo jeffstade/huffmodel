@@ -19,19 +19,19 @@ let Huff = require('huffmodel');
 
 ## API
 
-### generateProbabilities(origins, destinations, options?)
+### generateProbabilities(originsFC, destinationsFC, options?)
 
-#### originsGeom
-
-Type: `GeoJSON`
-
-Lorem ipsum.
-
-#### destinationsGeom
+#### originsFC
 
 Type: `GeoJSON`
 
-Lorem ipsum.
+Feature Collection representing the origins in a Huff Model.
+
+#### destinationsFC
+
+Type: `GeoJSON`
+
+Feature collection representing the destinations in a Huff Model. Features should include at least one numerical property to use as an attractiveness property (set via options).
 
 #### options
 
@@ -42,4 +42,18 @@ Type: `object`
 > Type: `integer`\
 > Default: `10`
 > 
-> Lorem ipsum..
+> Max distance for destination from origin, in miles
+>
+> ##### distanceExponent
+> 
+> Type: `integer`\
+> Default: `1`
+> 
+> Distance exponents usually range between 1-2. The higher the exponent, the more dissuasive distance is on a origin/destination probability.
+
+> ##### destinationAttractivenessProperties
+> 
+> Type: `Array`\
+> Default: `['ACREAGE']`
+> 
+> Array of any destination feature properties that should be used for assessing attractiveness.
